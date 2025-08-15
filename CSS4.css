@@ -1,0 +1,72 @@
+.link {
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+.link:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: progress;
+}
+
+.link:active {
+    text-decoration-color: aqua;
+    color: gold;
+}
+
+.link:visited {
+    color: gold;
+    text-decoration: none;
+}
+
+input {
+    width: 100px;
+}
+
+input:focus {
+    width: 200px;
+}
+
+input:disabled {
+    width: 300px;
+}
+
+input:enabled {
+    width: 100px;
+}
+
+div:empty {
+    color: hotpink;
+}
+
+div:not(:empty) {
+    color: green;
+}
+
+p.main-text::after {
+    content: '123';
+    color: royalblue;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+p.main-text:empty::after {
+    content: attr(title);
+    color: royalblue;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+p.main-text:not(:empty)::first-letter {
+   color: aqua;
+   font-size: 30px;
+}
+
+p.main-text:not(:empty)::first-line {
+   color: aquamarine;
+   font-size: 30px;
+}
+
+p:first-of-type {
+    font-size: 70px;
+}
