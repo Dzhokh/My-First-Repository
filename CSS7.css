@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(48, 40, 40);
+}
+
+#block, .block {
+    background: rgb(255, 0, 0);
+    color: white;
+    width: 30%;
+    height: 200px;
+    border: 10px solid black;
+    border-left: 0;
+    border-right: 10px dotted white;
+    border-radius: 20px 50px 100px 300px;
+    border-bottom-right-radius: 0px;
+    opacity: 0.5;
+    margin: 200px 100px 50px 500px;
+    margin-left: 10px;
+    padding: 150px 125px 210px 220px;
+    display: inline-block;
+}

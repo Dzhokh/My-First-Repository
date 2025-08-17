@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Shashlychok</title>
+</head>
+<body>
+    <h1>Shashlychok прямо тут!</h1>
+    <img src="https://tse4.mm.bing.net/th/id/OIP._VYBymzikU057TyE5jLFIgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Люблю М'ясо та справедливість!">
+    <p>Це сторінка "Shashlychok" з додатковою інформацією про наш магазин.</p>
+    <hr>
+    <p>Тут ви знайдете більше деталей про наші страви, акції та спеціальні пропозиції.</p>
+                    <table border="1">
+                    <caption>Меню шашличків</caption>
+                    <thead>
+                        <tr>
+                            <th>Назва страви</th>
+                            <th>Ціна</th>
+                            <th>Опис</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Шашлик з свинини</td>
+                            <td>150 грн</td>
+                            <td>Соковитий шашлик з маринованої свинини.</td>
+                        </tr>
+                        <tr>
+                            <td>Шашлик з курки</td>
+                            <td>120 грн</td>
+                            <td>Легкий і ніжний шашлик з курячого м'яса.</td>
+                        </tr>
+                        <tr>
+                            <td>Овочевий шашлик</td>
+                            <td>100 грн</td>
+                            <td>Смачний шашлик з сезонних овочів.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Загальна сума - 370 грн</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            <h3>Форма для заповнення замовлення</h3>
+                <form action="">
+                        <fieldset>
+                            <legend>Особисті дані</legend>
+                    <div>
+                        Ім'я:
+                        <input type="text" name="name" placeholder="Ваше ім'я" required>
+                    </div>
+                    <div>
+                        Пароль:
+                        <input type="password" name="password" placeholder="Ваш пароль" disabled>
+                    </div>
+                    <div>
+                        Електронна пошта:
+                        <input type="email" name="email" placeholder="Ваша електронна пошта" minlength="5" maxlength="35" required>
+                    </div>
+                    <div>
+                        Вік:
+                        <input type="number" value="18" min="18" max="100" step="2">
+                    </div>
+                    <div>
+                        Номер телефону:
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div>
+                        Стать:
+                        <label>
+                            Чоловік
+                            <input type="radio" name="gender" value="male" checked>
+                        </label>
+                        <label>
+                            Жінка
+                            <input type="radio" name="gender" value="female">
+                        </label>
+                        <label>
+                            Інше
+                            <input type="radio" name="gender" value="other">
+                        </label>
+                    </div>
+                    <div>
+                        Добавки:
+                        <select multiple>
+                            <option disabled value="meat">М'ясо - 100 грн</option>
+                            <option selected value="vegetables">Овочі - 50 грн</option>
+                            <option value="fish">Риба - 75 грн</option>
+                            <option value="dessert">Десерт - 60 грн</option>
+                            <option value="sauce">Соус - 30 грн</option>
+                            <option value="drink">Напій - 40 грн</option>
+                            <option value="bread">Хліб - 20 грн</option>
+                            <option value="salad">Салат - 45 грн</option>
+                            <option value="spices">Спеції - 15 грн</option>
+                            <option value="cheese">Сир - 55 грн</option>
+                            <option value="fruits">Фрукти - 70 грн</option>
+                            <option value="nuts">Горіхи - 80 грн</option>
+                            <option value="sweets">Солодощі - 90 грн</option>
+                            <option value="pickles">Мариновані овочі - 25 грн</option>
+                            <option value="herbs">Зелень - 10 грн</option>
+                            <option value="spreads">Пасти - 35 грн</option>
+                            <option value="chips">Чіпси - 20 грн</option>
+                            <option value="crackers">Сухарики - 15 грн</option>
+                            <option value="popcorn">Попкорн - 30 грн</option>
+                            <option value="icecream">Морозиво - 50 грн</option>
+                            <option value="syrup">Сироп - 25 грн</option>
+                            <option value="honey">Мед - 20 грн</option>
+                            <option value="jam">Варення - 30 грн</option>
+                            <option value="nothing">Нічого</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="comments" id=""></textarea>
+                    </div>
+                    <div>
+                        Приймаєш на себе відповідальність за ШАШЛИК???
+                        <input type="checkbox" checked>
+                    </div>
+                        <input type="submit" value="Замовити" onclick="alert('Замовлення прийнято!')">
+                        <input type="reset" value="Очистити">
+                        <input type="button" value="Скасувати" onclick="alert('Замовлення скасовано!')">
+                        <input type="file" accept=".txt, .pdf, .docx">
+
+                        <button type="submit">
+                            <b>Button</b>
+                        </button>
+                        <button>
+                            <b>Submit</b>
+                        </button>
+                        </fieldset>
+                </form>
+</body>
+</html>

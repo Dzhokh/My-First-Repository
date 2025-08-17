@@ -1,0 +1,157 @@
+/*
+header{
+  background-color: bisque
+}
+*/
+/*
+a {
+  color: pink;
+} 
+*/
+section {
+  height  : 100px;
+  margin-bottom : 20px;
+  background-color: lightgray;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+li {
+  color: darkblue;
+}
+
+.my-super-text {
+  color: fuchsia;
+}
+
+.not-super-text {
+  color: greenyellow;
+}
+.big {
+  font-size: 30px;
+}
+.small {
+  font-size: 10px;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.bold {
+  font-weight: 1000;
+}
+.thin {
+  font-weight: 100;
+}
+
+#my-first-unique-text {
+  color: purple;
+}
+#my-second-unique-text {
+  color: darkgoldenrod;
+}
+#my-third-unique-text {
+  color: darkorchid;
+}
+
+[:placeholder] {
+  border: 1px solid black;
+}
+[type="number"] {
+  box-shadow: 3px 3px 5px darkcyan;
+}
+[type="tel"] {
+  box-shadow: 3px 3px 5px darkorange;
+}
+[type="email"] {
+  box-shadow: 3px 3px 5px darkviolet;
+}
+[href*="dchurch.lviv.ua"] {
+  padding-left: 40px;
+  background: url('images/icons/icon-dchurch.png') 0 50%/32px no-repeat;
+}
+
+[href^="http://dchurch.lviv.ua"] {
+  color: darkred;
+}
+
+[href^="https://dchurch.lviv.ua"] {
+  color: darkgreen;
+} 
+
+[href$="http://google.ua"] {
+  background-image: linear-gradient(blue 0 50%, yellow 50% 100%)
+
+}
+[href$="http://google.de"] {
+  background-image: linear-gradient(black 33%, red 33% 66%, yellow 66%)
+}
+[href$="http://google.fr"] {
+  background-image: linear-gradient(
+    to right,
+    blue 33%,
+    white 33% 66%,
+    red 66%
+  );
+}
+
+[class|="Tree"] {
+  color: orange;
+}
+
+body {
+  border: 1px solid black;
+}
+
+section p {
+  color: darkcyan;
+}
+section p span {
+  color: darkorange;
+}
+
+/*
+h1, 
+h2, 
+h3 {
+  color: darkblue;
+}
+*/
+
+.button {
+  background-color: lightgoldenrodyellow;
+}
+.button.is-active {
+  background-color: coral;
+}
+
+section > h2 {
+  color: red;
+}
+
+h2 + p {
+  color: crimson;
+}
+
+.error-message {
+  color: red;
+  visibility: hidden;
+}
+.input.is-invalid + .error-message {
+  visibility: visible;
+}
+
+h4 ~ p {
+  color: darkblue;
+}
+
+p {
+  color: darkmagenta;
+  color: darkorange;
+}

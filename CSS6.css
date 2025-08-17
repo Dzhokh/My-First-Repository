@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background: #222;
+    color: aqua ;
+}
+
+p.main-text {
+    color: blueviolet;
+    text-align: justify;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 50px;
+    word-spacing: 30px;
+    letter-spacing: 2px;
+    font-family: 'Oswald';
+}
+
+p.main-text > b {
+    font-style: normal;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: tomato;
+    color: tomato;
+    cursor: pointer;
+}
